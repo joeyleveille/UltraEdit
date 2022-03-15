@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ultraedit</id>
+    <version>27.10</version>
+    <packageSourceUrl>https://github.com/joeyleveille/UltraEdit</packageSourceUrl>
+    <owners>EmpathicSage</owners>
+    <title>UltraEdit (Install)</title>
+    <authors>IDM Computer Solutions, Inc</authors>
+    <projectUrl>https://www.ultraedit.com/</projectUrl>
+    <iconUrl>https://www.ultraedit.com/assets/images/icons/ue.png</iconUrl>
+    <copyright>2020 IDM Computer Solutions, Inc</copyright>
+    <licenseUrl>https://www.ultraedit.com/license-agreement/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.ultraedit.com/wiki/Main_Page</docsUrl>
+    <mailingListUrl>http://forums.ultraedit.com/</mailingListUrl>
+    <bugTrackerUrl>https://www.ultraedit.com/support/</bugTrackerUrl>
+    <tags>ultraedit text editor ide</tags>
+    <summary>UltraEdit - Commercial Text Editor for Programmers</summary>
+    <description>UltraEdit is a text editor that including macros, configurable syntax highlighting, code folding, file type conversions, project management, regular expressions for search-and-replace, a column-edit mode, remote editing of files via FTP, interfaces for APIs or command lines of choice, and more. Files can be browsed and edited in tabs, and it also supports Unicode and hex editing mode.</description>
+    <releaseNotes>https://www.ultraedit.com/products/ultraedit/latest-changes.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
